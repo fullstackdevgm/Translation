@@ -1,0 +1,36 @@
+{
+  "name": "todo-translation",
+  "version": "0.0.1",
+  "description": "A translation tool for Appigo Todo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Appigo/todo-translation.git"
+  },
+  "keywords": [
+    "translation"
+  ],
+  "author": "Appigo, Inc.",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Appigo/todo-issues/issues"
+  },
+  "homepage": "https://github.com/Appigo/todo-translation",
+  "bin": {
+    "todo-translation": "./index.js"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "better-sqlite3": "^4.0.3",
+    "chalk": "^2.3.0",
+    "clear": "0.0.1",
+    "clui": "^0.3.6",
+    "configstore": "^3.1.1",
+    "figlet": "^1.2.0",
+    "inquirer": "^3.3.0",
+    "uuid": "^3.1.0"
+  }
+}
